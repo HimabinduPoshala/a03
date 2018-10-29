@@ -1,0 +1,60 @@
+article{
+	font-style:italic;
+	font-size: larger;
+	text-align:left;
+	border:3px solid black;
+	padding:5px;
+}
+header{
+	border-radius: 50px;
+	font-style:italic;
+	font-size: larger;
+	text-align:center;
+	padding-top:3spx;
+}
+footer{
+	font-family:arial;
+	font-style:italic;
+	text-align:center;
+	border:2px solid black;
+	padding:10px;
+}
+.aside-header{
+	color:purple;
+	border:5px solid green;
+	margin-top:20px;
+	width:200px;
+}
+body{
+	background-image: url(images.jpg);
+	background-size: 200%;
+	background-repeat:no-repeat; 
+}
+.rounded-circle{
+	color: aqua;
+	border-radius: 90%;
+	width:200px;
+	height:200px;
+	/**max-height: 100%;**/
+	max-width: 100%;
+	text-align: right;
+}
+.section-header{
+	color:red;
+	text-align:left;
+}
+#past-section{
+	padding-left:5px;
+}
+#future-section{
+	text-align:left;
+}
+.operation{
+	text-align:center; 
+}
+
+
+
+
+
+	

@@ -1,0 +1,39 @@
+<%include header%>
+<link rel="stylesheet" type="text/css" href="css/bindu.css">
+    <header class="Header">Contact details</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="https://www.facebook.com/himabindu.poshala.3"><img width="50" height="50" src="images/Facebook.png"
+                        alt="facebook"></div>
+            <div class="col-md-3">
+                <a href="https://www.linkedin.com/in/himabindu-poshala-1a6b97171/"><img width="50" height="50" src="images/Linkedin.png"
+                        alt="LinkedIn"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://github.com/HimabinduPoshala"><img width="50" height="50" src="images/Github.png" alt="GitHub"></a>
+            </div>
+            <div class="col-md-3">
+                <a href="https://bitbucket.org/HimabinduPoshala/"><img width="50" height="50" src="images/Bitbucket.png" alt="BitBucket"></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="operation">
+        <form>
+            <p>First Name<sup style="
+            color:red">*</sup></p>
+            <input type="text" name="FirstName" value="Himabindu" required><br>
+            <p>Last Name<sup style="
+                color:red">*</sup></p>
+            <input type="text" name="Lastname" value="Poshala" required><br>
+            <p>Gender<sup style="color:red">*</sup></p>
+            <input type="radio" name="Male" value="Male">Male<br>
+            <input type="radio" name="Female" value="Female" checked>Female<br><br>
+            <p>Any questions?</p><br>
+            <textarea style="height:150px;width:150px"></textarea><br>
+            <button type="button" name="Submit" onclick="alert('Thank you! your response is recorded')">Submit</button>
+        </form>
+    </section>
+    
+<%include footer%>
